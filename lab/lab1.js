@@ -11,3 +11,4 @@ function tinhBmi (chieucao,cannang){
 
 }
 console.log(tinhBmi(1.76,92));
+hideijwdfeieofeefprủ
