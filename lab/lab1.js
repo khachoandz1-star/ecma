@@ -23,7 +23,7 @@ function taoSach(tieude, tacgia, namxuatban, gia) {
     gia,
 
     layThongTin() {
-      return `📘 ${this.tieude} - Tác giả: ${this.tacgia}, Năm: ${this.namxuatban}, Giá: ${this.gia}đ`;
+      return ` ${this.tieude} - Tác giả: ${this.tacgia}, Năm: ${this.namxuatban}, Giá: ${this.gia}đ`;
     },
 
     [tenPhuongThuc](phanTram) {
