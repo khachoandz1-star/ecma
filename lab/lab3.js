@@ -76,7 +76,6 @@ const createProduct = function(name, price, category) {
   };
 };
 
-// Ví dụ sử dụng
 console.log(mergeArrays([1, 2], [3], [4, 5]));
 console.log(sumAll(1, 2, 3, 4));
 console.log(createProduct("Áo thun", 150000, "Thời trang"));
