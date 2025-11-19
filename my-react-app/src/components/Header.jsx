@@ -1,5 +1,5 @@
 // src/components/Header.jsx
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Header() {
   return (
@@ -11,12 +11,12 @@ function Header() {
           <Link to="/" className="hover:underline font-medium ">
             Trang chủ
           </Link>
-          <Link to="/about" className="hover:underline font-medium">
+          <NavLink to="/About">
             Giới thiệu
-          </Link>
-          <Link to="/tours" className="hover:underline font-medium">
+          </NavLink>
+          <a to="/tours" className="hover:underline font-medium">
             Tours
-          </Link>
+          </a>
           <Link to="/contact" className="hover:underline font-medium">
             Liên hệ
           </Link>
