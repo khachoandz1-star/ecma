@@ -12,7 +12,7 @@ function About() {
       <div className="flex-1 p-8">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl font-bold text-orange-600 mb-8">
-            Chào mừng đến với Công ty Du lịch ABC
+            Chào mừng đến với Công ty Du lịch 
           </h1>
           <p className="text-lg text-gray-700 leading-relaxed">
             Chúng tôi chuyên tổ chức các tour du lịch trong và ngoài nước với giá tốt nhất,
