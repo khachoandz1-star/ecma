@@ -1,7 +1,10 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Heading from "./components/Heading";   
-import Button from "./components/Button";       
+import Button from "./components/Button";  
+import {BrowserRouter,Router,Route}     from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
 
 function App() {
   const tour = [
